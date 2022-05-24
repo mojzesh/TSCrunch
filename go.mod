@@ -1,4 +1,4 @@
-module github.com/tonysavon/TSCrunch
+module github.com/mojzesh/TSCrunch
 
 go 1.18
 
