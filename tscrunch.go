@@ -652,7 +652,7 @@ func crunch(src []byte, ctx *crunchCtx) []byte {
 		ctx.loadTo = 0x0801
 	}
 
-	ctx.decrunchEnd = uint16(int(ctx.decrunchTo) + len(src) - 1)
+	ctx.decrunchEnd = uint16(int(ctx.decrunchTo) + len(src))
 
 	if ctx.INPLACE {
 		ctx.loadTo = ctx.decrunchEnd - uint16(len(crunched)) + 1

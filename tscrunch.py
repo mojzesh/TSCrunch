@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 TSCrunch 1.3 - binary cruncher, by Antonio Savona
